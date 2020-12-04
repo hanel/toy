@@ -1,0 +1,21 @@
+Package: toy
+Type: Package
+Title: Toy Package for Advanced R Programming
+Version: 0.1.0
+Author: Martin
+Maintainer: The package maintainer <hanel@fzp.czu.cz>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    data.table,
+    rgdal,
+    sp,
+    R (>= 2.10)
+RoxygenNote: 7.1.0
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
